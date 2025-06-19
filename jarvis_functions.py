@@ -76,7 +76,10 @@ def take_command():
 
 def get_ai_reply(query):
     prompt = f"""
-You are Jarvis, a smart AI assistant. Reply to the following user message briefly and clearly in 1-3 sentences. Do not explain too much. Avoid long paragraphs.
+You are Jarvis, a smart AI assistant. Reply briefly in 1-3 sentences. 
+You understand English, Hindi, and Hinglish (mixed). 
+Never say that you only understand English. 
+If unsure, respond politely or ask for clarification.
 
 User: {query}
 Jarvis:
