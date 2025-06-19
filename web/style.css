@@ -1,0 +1,85 @@
+/* Futuristic UI with balanced neon + neutral palette */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f0f0f, #1c1c1c);
+  color: #e0e0e0;
+  text-align: center;
+  padding: 60px 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #9f00ff;
+  text-shadow: 0 0 10px #9f00ff;
+}
+
+.highlight {
+  color: #00ffea;
+  text-shadow: 0 0 10px #00ffea;
+}
+
+button {
+  font-size: 20px;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #00ff52, #00aeff);
+  color: #02048b;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 255, 229, 0.5);
+}
+
+button:hover {
+  background: linear-gradient(145deg, #ff00c8, #9f00ff);
+  color: white;
+  box-shadow: 0 4px 18px rgba(255, 64, 200, 0.6);
+}
+
+#chat-area {
+  margin: 40px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 700px;
+  height: 500px;
+  overflow-y: auto;
+  background: rgba(30, 30, 30, 0.9);
+  border-radius: 14px;
+  box-shadow: inset 0 0 12px rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  text-align: left;
+  color: #ffffff;
+}
+
+#chat-area div {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+#chat-area b {
+  color: #00ff52;
+}
+
+/* Optional: Scrollbar styling */
+#chat-area::-webkit-scrollbar {
+  width: 8px;
+}
+
+#chat-area::-webkit-scrollbar-thumb {
+  background: #00aeff;
+  border-radius: 4px;
+}
+
+/* Accent metallic lines (if needed for sections) */
+.accent-line {
+  height: 2px;
+  background: linear-gradient(to right, #aaa, #fff, #aaa);
+  margin: 20px auto;
+  width: 80%;
+  opacity: 0.4;
+}
