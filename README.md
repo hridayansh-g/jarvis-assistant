@@ -48,4 +48,8 @@ Made with 💙 by [@hridayansh-g](https://github.com/hridayansh-g)
 
 ## 📸 Preview
 
-![Preview](preview.png)
+![Preview](preview1.png)
+![Preview](preview2.png)
+
+## 📽️Watch Demo Video
+📽️ [Watch Demo Video](https://youtu.be/your-link-here)  
